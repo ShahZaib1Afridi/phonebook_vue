@@ -11,6 +11,12 @@
     <body>
         <div id="app">
             <Myheader></Myheader>
+            <div class='container '>
+      <!-- route outlet -->
+      <!-- component matched by the route will render here -->
+            <router-view></router-view>
+             
+            </div>
             <Myfooter></Myfooter>
         </div>
         <script src="{{ asset('/js/app.js') }}" charset="utf-8"></script>

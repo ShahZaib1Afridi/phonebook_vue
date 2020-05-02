@@ -14,13 +14,8 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">
-            Home
-          </a>
-
-          <a class="navbar-item">
-            Documentation
-          </a>
+         <router-link to="/home" class="navbar-item">Home</router-link>
+         <router-link to="/about" class="navbar-item">About</router-link>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
